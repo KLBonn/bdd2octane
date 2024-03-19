@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mytest.twoscenarios.CucumberTest" time="0.098" tests="5" errors="0" skipped="0" failures="0">
+    <properties>
+        <property name="sun.desktop" value="windows"/>
+        <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+        <property name="java.specification.version" value="11"/>
+        <property name="sun.cpu.isalist" value="amd64"/>
+        <property name="sun.jnu.encoding" value="GBK"/>
+        <property name="java.class.path" value="C:\jbyjanegit\junit5-cucumber\target\test-classes;C:\jbyjanegit\junit5-cucumber\target\classes;C:\Users\lc201\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\lc201\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar;C:\Users\lc201\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\lc201\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\lc201\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\lc201\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+        <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.variant" value=""/>
+        <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+        <property name="user.timezone" value="Asia/Shanghai"/>
+        <property name="java.vm.specification.version" value="11"/>
+        <property name="os.name" value="Windows 10"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin"/>
+        <property name="sun.java.command" value="C:\Users\lc201\AppData\Local\Temp\surefire18310679303902184427\surefirebooter-20240318164641885_3.jar C:\Users\lc201\AppData\Local\Temp\surefire18310679303902184427 2024-03-18T16-46-41_493-jvmRun1 surefire-20240318164641885_1tmp surefire_0-20240318164641885_2tmp"/>
+        <property name="jdk.debug" value="release"/>
+        <property name="surefire.test.class.path" value="C:\jbyjanegit\junit5-cucumber\target\test-classes;C:\jbyjanegit\junit5-cucumber\target\classes;C:\Users\lc201\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\lc201\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar;C:\Users\lc201\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\lc201\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\lc201\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\lc201\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\lc201\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lc201\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\lc201\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="user.home" value="C:\Users\lc201"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="java.version.date" value="2021-04-20"/>
+        <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot"/>
+        <property name="file.separator" value="\"/>
+        <property name="basedir" value="C:\jbyjanegit\junit5-cucumber"/>
+        <property name="java.vm.compressedOopsMode" value="Zero based"/>
+        <property name="line.separator" value="&#10;"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+        <property name="surefire.real.class.path" value="C:\Users\lc201\AppData\Local\Temp\surefire18310679303902184427\surefirebooter-20240318164641885_3.jar"/>
+        <property name="user.script" value=""/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="java.runtime.version" value="11.0.11+9"/>
+        <property name="user.name" value="lc201"/>
+        <property name="path.separator" value=";"/>
+        <property name="os.version" value="10.0"/>
+        <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+        <property name="file.encoding" value="GBK"/>
+        <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+        <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+        <property name="localRepository" value="C:\Users\lc201\.m2\repository"/>
+        <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+        <property name="java.io.tmpdir" value="C:\Users\lc201\AppData\Local\Temp\"/>
+        <property name="java.version" value="11.0.11"/>
+        <property name="user.dir" value="C:\jbyjanegit\junit5-cucumber"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+        <property name="sun.os.patch.level" value=""/>
+        <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\lc201\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lc201\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\dev\tools\java\maven\apache-maven-3.8.6\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\PostgreSQL\13\bin;C:\DevTools\elasticsearch-8.10.4\bin;C:\Program Files (x86)\Symantec\VIP Access Client;C:\Users\lc201\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Users\lc201\AppData\Local\Microsoft\WindowsApps;C:\Users\lc201\AppData\Roaming\npm;C:\Users\lc201\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.vendor" value="AdoptOpenJDK"/>
+        <property name="java.vm.version" value="11.0.11+9"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="java.class.version" value="55.0"/>
+    </properties>
+    <testcase name="Some terse yet descriptive text of what is desired like bla bla 3 examples - Some determinable business situation" classname="Some terse yet descriptive text of what is desired like bla bla 3 examples" time="0.03">
+        <system-out><![CDATA[
+@Quick @full @annoy
+Scenario: Some determinable business situation &amp#27;[90m# com/mytest/twoscenarios/TwoSameOutlinedScenario.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma global administrator named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg"&amp#27;[0m    &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_global_administrator_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma blog named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg's anti-tax rants"&amp#27;[0m       &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_blog_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma customer named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Wilson"&amp#27;[0m                  &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_customer_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe following people exist:&amp#27;[0m            &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.the_following_people_exist(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | name | email          | phone |
+    | Aila | aila@email.com | 123   |
+    | Joe  | joe@email.com  | 234   |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msome precondition &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                      &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_precondition(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msome action by the actor&amp#27;[0m                &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_action_by_the_actor()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msome other action&amp#27;[0m                        &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_other_action()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msome testable outcome is achieved&amp#27;[0m       &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_testable_outcome_is_achieved()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msomething else we can check happens too&amp#27;[0m  &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.something_else_we_can_check_happens_too()&amp#27;[0m
+]]></system-out>
+    </testcase>
+    <testcase name="Some terse yet descriptive text of what is desired like bla bla 3 examples - Some another scenario 2" classname="Some terse yet descriptive text of what is desired like bla bla 3 examples" time="0.01">
+        <system-out><![CDATA[
+@Quick @nightly
+Scenario: Some another scenario 2             &amp#27;[90m# com/mytest/twoscenarios/TwoSameOutlinedScenario.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma global administrator named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg"&amp#27;[0m   &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_global_administrator_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma blog named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg's anti-tax rants"&amp#27;[0m      &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_blog_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma customer named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Wilson"&amp#27;[0m                 &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_customer_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32msome precondition&amp#27;[0m                     &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_precondition()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msome other precondition with doc string&amp#27;[0m &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_other_precondition_with_doc_string(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msome action by the actor&amp#27;[0m               &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_action_by_the_actor()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32myet another action&amp#27;[0m                      &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.yet_another_action()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msome testable outcome is achieved&amp#27;[0m      &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.some_testable_outcome_is_achieved()&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32msomething else we can check happens too&amp#27;[0m   &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.something_else_we_can_check_happens_too()&amp#27;[0m
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32mI don't see something else&amp#27;[0m              &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.i_don_t_see_something_else()&amp#27;[0m
+]]></system-out>
+    </testcase>
+    <testcase name="Some terse yet descriptive text of what is desired like bla bla 3 examples - feeding a cow &lt;name&gt; yum yum yum - Examples - Example #1.1" classname="Some terse yet descriptive text of what is desired like bla bla 3 examples - feeding a cow &lt;name&gt; yum yum yum - Examples" time="0.005">
+        <system-out><![CDATA[
+Scenario Outline: feeding a cow cow1 yum yum yum &amp#27;[90m# com/mytest/twoscenarios/TwoSameOutlinedScenario.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma global administrator named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg"&amp#27;[0m      &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_global_administrator_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma blog named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg's anti-tax rants"&amp#27;[0m         &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_blog_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma customer named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Wilson"&amp#27;[0m                    &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_customer_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe cow weighs &amp#27;[0m&amp#27;[32m&amp#27;[1m450&amp#27;[0m&amp#27;[32m kg&amp#27;[0m                    &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.the_cow_weighs_kg(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mwe calculate the feeding requirements&amp#27;[0m     &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.we_calculate_the_feeding_requirements()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe energy should be &amp#27;[0m&amp#27;[32m&amp#27;[1m26500&amp#27;[0m&amp#27;[32m MJ&amp#27;[0m             &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.the_energy_should_be_mj(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+    </testcase>
+    <testcase name="Some terse yet descriptive text of what is desired like bla bla 3 examples - feeding a cow &lt;name&gt; yum yum yum - Examples - Example #1.2" classname="Some terse yet descriptive text of what is desired like bla bla 3 examples - feeding a cow &lt;name&gt; yum yum yum - Examples" time="0.006">
+        <system-out><![CDATA[
+Scenario Outline: feeding a cow cow1 yum yum yum &amp#27;[90m# com/mytest/twoscenarios/TwoSameOutlinedScenario.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma global administrator named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg"&amp#27;[0m      &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_global_administrator_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma blog named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg's anti-tax rants"&amp#27;[0m         &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_blog_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma customer named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Wilson"&amp#27;[0m                    &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_customer_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe cow weighs &amp#27;[0m&amp#27;[32m&amp#27;[1m451&amp#27;[0m&amp#27;[32m kg&amp#27;[0m                    &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.the_cow_weighs_kg(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mwe calculate the feeding requirements&amp#27;[0m     &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.we_calculate_the_feeding_requirements()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe energy should be &amp#27;[0m&amp#27;[32m&amp#27;[1m26501&amp#27;[0m&amp#27;[32m MJ&amp#27;[0m             &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.the_energy_should_be_mj(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+    </testcase>
+    <testcase name="Some terse yet descriptive text of what is desired like bla bla 3 examples - feeding a cow &lt;name&gt; yum yum yum - Examples - Example #1.3" classname="Some terse yet descriptive text of what is desired like bla bla 3 examples - feeding a cow &lt;name&gt; yum yum yum - Examples" time="0.006">
+        <system-out><![CDATA[
+Scenario Outline: feeding a cow cow2 yum yum yum &amp#27;[90m# com/mytest/twoscenarios/TwoSameOutlinedScenario.feature:50&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma global administrator named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg"&amp#27;[0m      &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_global_administrator_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma blog named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Greg's anti-tax rants"&amp#27;[0m         &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_blog_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma customer named &amp#27;[0m&amp#27;[32m&amp#27;[1m"Wilson"&amp#27;[0m                    &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.a_customer_named(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe cow weighs &amp#27;[0m&amp#27;[32m&amp#27;[1m500&amp#27;[0m&amp#27;[32m kg&amp#27;[0m                    &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.the_cow_weighs_kg(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mwe calculate the feeding requirements&amp#27;[0m     &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.we_calculate_the_feeding_requirements()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe energy should be &amp#27;[0m&amp#27;[32m&amp#27;[1m29500&amp#27;[0m&amp#27;[32m MJ&amp#27;[0m             &amp#27;[90m# com.mytest.twoscenarios.StepDefinitions.the_energy_should_be_mj(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+    </testcase>
+</testsuite>

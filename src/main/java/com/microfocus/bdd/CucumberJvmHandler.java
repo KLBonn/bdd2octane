@@ -32,11 +32,12 @@
 package com.microfocus.bdd;
 
 
- import com.microfocus.bdd.api.*;
+import com.microfocus.bdd.api.*;
+import io.cucumber.messages.types.FeatureChild;
 
- import java.util.Optional;
- import java.util.regex.Matcher;
- import java.util.regex.Pattern;
+import java.util.Optional;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CucumberJvmHandler implements BddFrameworkHandler {
 
@@ -188,6 +189,10 @@ java.lang.AssertionError
         if (classname.isEmpty() || classname.equals("EMPTY_NAME") || classname.equals("Unknown")) {
             return Optional.empty();
         }
+        String[] nameParts = classname.split("-");
+        if (nameParts.length == 3) {
+            classname = nameParts[0].trim();
+        }
         return Optional.of(classname);
     }
 
@@ -207,7 +212,29 @@ java.lang.AssertionError
                 return (sce.getName());
             }
         }
-        return null;
+        String testcaseNameInReport = element.getAttribute("name");
+        String[] nameParts = testcaseNameInReport.split("-");
+        for (String namePart : nameParts) {
+            if (namePart.contains("<") && namePart.contains(">")) {
+                String testcaseName = namePart.trim();
+                Optional<FeatureChild> child = feature.getGherkinDocument().getFeature().getChildren().stream()
+                        .filter(featureChild -> featureChild.getScenario() != null && featureChild.getScenario().getName().equals(testcaseName)).findFirst();
+                if (child.isPresent()) {
+                    if (child.get().getScenario().getExamples().isEmpty()) {
+                        return testcaseNameInReport;
+                    } else {
+                        return testcaseName;
+                    }
+                } else {
+                    return testcaseName;
+                }
+            }
+        }
+        if (nameParts.length == 2) {
+            return nameParts[1].trim();
+        } else {
+            return null;
+        }
     }
 
 /*
